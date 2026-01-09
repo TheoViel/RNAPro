@@ -73,7 +73,7 @@ The integration of foundation and fine-tuned models into AI systems requires add
 
 
 ## Model Version(s):
-We are releasing three best models — one each for the private, public, and RNA-puzzle target datasets — based on the leaderboard test datasets from the [Stanford RNA 3D Folding Kaggle Competition.
+We are releasing two best models — one each for the private and public target datasets — based on the leaderboard test datasets from the [Stanford RNA 3D Folding Kaggle Competition.
 ](https://www.kaggle.com/competitions/stanford-rna-3d-folding)
 
 - RNAPro-Private-Best-500M <br>
