@@ -2,7 +2,7 @@
 
 ### Model Description
 RNAPro is a state-of-the-art RNA 3D folding model developed in collaboration with the hosts and winners of the [Stanford RNA 3D Folding Kaggle competition.
-](https://www.kaggle.com/competitions/stanford-rna-3d-folding) The model incorporates RNA-specific modules — including template modeling, multiple sequence alignment (MSA), and a pretrained RNA language model — to enhance RNA structure prediction performance. Read more about the kaggle competition and model in the [preprint](https://www.biorxiv.org/content/10.64898/2025.12.30.696949v1).
+](https://www.kaggle.com/competitions/stanford-rna-3d-folding) RNAPro uses a frozen pre-trained RNA foundation model RibonanzaNet2 as an encoder to extract RNA sequence and pairwise features. These are projected and injected into a RNA post-trained Protenix with learned gating. A configurable RNA template encoder and MSA pipeline are used to enhance the structure prediction accuracy. Read more about the kaggle competition and model in the [preprint](https://www.biorxiv.org/content/10.64898/2025.12.30.696949v1).
 
 
 ## Installation
@@ -36,7 +36,6 @@ The code was developed using the `nvcr.io/nvidia/pytorch:25.09-py3` docker image
 Run step 1., and inside the container, run step 3.
 
 For more detailed instruction steps, check the [<u>Docker Installation</u>](docs/docker_installation.md) guide.
-
 
 
 ## Train Models
